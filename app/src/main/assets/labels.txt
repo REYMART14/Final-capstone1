@@ -1,0 +1,15 @@
+0 armyworm
+1 brown leafhopper
+2 gall midge
+3 grasshopper
+4 leaf folder
+5 mealy bug
+6 paddy stem borer
+7 rice came worm
+8 rice earhead bug
+9 rice horned caterpillar
+10 rice skipper
+11 spinny bettle
+12 thrips
+13 white backed plant hopper
+14 whorl maggot

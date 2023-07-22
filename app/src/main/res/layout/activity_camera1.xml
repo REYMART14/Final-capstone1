@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Camera1">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BCD5B8"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="412dp"
+        android:layout_height="459dp"
+        android:background="#FBFBFB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="352dp"
+        android:layout_height="459dp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        android:paddingLeft="15dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="352dp"
+            android:layout_height="459dp"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/view23"
+                android:layout_width="230dp"
+                android:layout_height="227dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginEnd="43dp"
+                android:paddingEnd="28dp"
+                android:paddingBottom="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/stemborer" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/result"
+                android:layout_width="352dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/view23"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/cantata_one"
+                android:paddingLeft="26dp"
+                android:paddingTop="18dp"
+                android:paddingRight="23dp"
+                android:text="      Bakit at saan ito nangyayari
+
+            Ang mga weevil ay naaakit sa mainit at mamasa masang kapaligiran. Sila ay lumalabas sa huling bahagi ng tagsibol at naghahanap ng kanlungan sa mainit, tuyong buwan ng Hunyo at Hulyo, naghahanap ng mga lugar upang magparami at mangitlog. Kung pumasok sila sa inyong tahanan, naaakit sila sa mga butil at iba pang pagkain at infest ang mga ito. Kung makakakuha ka ng pagkain na puno ng weevil, ang pag init nito sa temperatura ng kuwarto ay maaaring magsulong ng mabilis na paglago ng weevils, na nagiging sanhi ng infestation.
+             Paano tukuyin ang
+            -Ang mga weevil ay maliliit na beetle na may kapansin pansin na mga ilong.
+            -Ang mga ito ay kadalasang bombilya- o peras-hugis.
+            -Ang mga immature, legless, grub-like larvae feed sa mga halaman.
+            -Ang mga weevil ng matatanda ay naghahanap ng kanlungan sa hindi magandang kondisyon ng panahon,lalo na kapag mainit at tuyo.
+            -Ang mga weevil ay pumapasok sa mga gusali sa pamamagitan ng pag-crawl sa mga bitak o butas sa paligid ng mga pundasyon, pinto at bintana.
+            -Ang mga ito ay isang pansamantalang kaguluhan.
+            Paano pangasiwaan ang
+            -Limang itim na beetles na may pahaba snouts, dalawang antennae at anim na binti bawat isa.
+            -Strawberry ugat weevils
+            -Ang pagpipigil sa mga weevil ay ang pinakamainam na paraan ng pagkontrol.
+            -Caulk bitak at matiyak snug-fitting screen at pinto upang mabawasan ang bilang ng mga weevils na maaaring pumasok sa isang gusali.
+            -Ang mga weevil, lalo na ang strawberry root weevils, ay naaakit sa kahalumigmigan. Maaari mong bitag ang mga ito sa mababaw na kawali ng tubig na inilagay sa paligid ng mga pundasyon o pader ng bahay.
+            -Ang mga kawaling ito ay hindi nakakakuha ng sapat na mga weevil para mabawasan ang bilang ng mga weevil na pumapasok sa mga tahanan.
+                Matuto nang higit pa
+            Tingnan ang buong fact sheet
+            Tubig weevil sa IRRI Rice Knowledge Bank
+            Ano ang ginagawa nito
+            Ang weevil ay isang uri ng beetle mula sa Curculionoidea superfamily123. Karaniwang maliliit ang mga ito, mas mababa sa 6 milimetro ang haba, at herbivorous12. Ang mga weevil ay kilala sa kanilang pahaba na ilong at kadalasang tinatawag na snout beetle123. Ang mga ito ay may iba't ibang kulay at may libu libong uri ng weevil34. Ang mga immature larvae ay kumakain sa mga halaman, habang ang mga adult weevil ay naghahanap ng kanlungan sa hindi kanais nais na kondisyon ng panahon5."
+                android:textColor="#070707"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:background="@drawable/menu"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rocknroll_one"
+        android:text="PestGon"
+        android:textColor="#0A5516"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="95dp"
+        android:layout_height="90dp"
+        android:background="@drawable/pestgon1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cantata_one"
+        android:text="Mag-scan"
+        android:textColor="#FA879187"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.133"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <TextView
+        android:id="@+id/textview7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cantata_one"
+        android:text="Peste"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cantata_one"
+        android:text="Home"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <ImageButton
+        android:id="@+id/home2"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:background="@drawable/baseline_home_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185" />
+
+    <ImageButton
+        android:id="@+id/camera2"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:background="@drawable/baseline_photo_camera1_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/capture"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:background="@drawable/baseline_camera_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+    <ImageButton
+        android:id="@+id/pest2"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:background="@drawable/baseline_pest_control_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

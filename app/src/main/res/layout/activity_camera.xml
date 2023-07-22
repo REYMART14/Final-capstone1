@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Camera">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#BCD5B8"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="250dp" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="412dp"
+        android:layout_height="459dp"
+        android:background="#FBFBFB"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="352dp"
+        android:layout_height="459dp"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        android:paddingLeft="15dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="352dp"
+            android:layout_height="459dp"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <ImageView
+                android:id="@+id/view23"
+                android:layout_width="230dp"
+                android:layout_height="227dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="48dp"
+                android:layout_marginEnd="43dp"
+                android:paddingEnd="28dp"
+                android:paddingBottom="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/stemborer" />
+
+            <me.biubiubiu.justifytext.library.JustifyTextView
+                android:id="@+id/result"
+                android:layout_width="352dp"
+                android:layout_height="match_parent"
+                android:layout_below="@id/view23"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/cantata_one"
+                android:paddingLeft="26dp"
+                android:paddingTop="18dp"
+                android:paddingRight="23dp"
+                android:text="Six species of stemborer attack rice. These are the yellow stemborer, white stemborer, striped stemborer, gold-fringed stemborer, dark-headed striped stemborer, and the pink stemborer.
+
+Among the stem borers, the pink stem borer is less important. It is polyphagous and prefers sugarcane to rice.
+
+Damage : Stem borers can destroy rice at any stage of the plant from seedling to maturity.
+
+They feed upon tillers and causes deadhearts or drying of the central tiller, during vegetative stage; and causes white
+
+Why and where it occurs
+The stem borer larvae bore at the base of the plants during the vegetative stage. On older plants, they bore through the upper nodes and feed toward the base.
+
+The yellow stem borer is a pest of deepwater rice. It is found in aquatic environments where there is continuous flooding. Second instar larvae enclose themselves in body leaf wrappings to make tubes and detach themselves from the leaf and falls onto the water surface. They attach themselves to the tiller and bore into the stem.
+
+Striped stem borer is most abundant in temperate countries and in non-flooded areas. Their final instars remain dormant in temperate areas during winter.
+
+The pink stem borer is found in upland rice, which is grown near sugarcane or related grasses. The presence of alternate hosts encourages the pink stem borer to develop, multiply and survive during winter or dry season. Unlike other species of stem borers, the pink stem borer lay bare eggs between the leaf sheath and the stem.
+
+High nitrogenous field favors population buildup of the stem borers. Fields planted later favors more damage by the insect pests that have built up in fields that have been planted earlier. Stubble that remains in the field can harbor stem borer larvae and or pupae.
+You sent
+How to identify
+Check the field for the following damage symptoms:
+
+Deadhearts or dead tillers that can be easily pulled from the base during the vegetative stages
+Whiteheads during reproductive stage where the emerging panicles are whitish and unfilled or empty
+Tiny holes on the stems and tillers
+Frass or fecal matters inside the damaged stems
+Deadhearts and whiteheads symptoms may sometimes be confused with damages caused by rats, neck blast, and black bug diseases.
+
+To confirm stem borer damage, visually inspect rice crop for deadhearts in the vegetative stages and whiteheads in reproductive stages. Stems can be pulled and dissected for larvae and pupae for confirmation of stem borer damage.
+You sent
+Why is it important
+Excessive boring through the sheath can destroy the crop. Its damage can reduce the number of reproductive tillers. At late infection, plants develop whiteheads.
+
+Yellow stemborer damage can lead to about 20% yield loss in early planted rice crops, and 80% in late-planted crops.
+White stemborer is an important pest in rainfed wetland rice. It can cause outbreaks and destroy rice fields.
+Striped stemborer is one of the most important insect pests in Asia. Its damage can be as high as 100% when severe.
+Gold-fringed stemborer can cause yield loss of about 30%.
+How to manage
+Use resistant varieties
+At seedbed and transplanting, handpick and destroy egg masses
+Raise level of irrigation water periodically to submerge the eggs deposited on the lower parts of the plant
+Before transplanting, cut the leaf-top to reduce carry-over of eggs from the seedbed to the field
+Ensure proper timing of planting and synchronous planting, harvest crops at ground level to remove the larvae in stubble, remove stubble and volunteer rice, plow and flood the field
+Encourage biological control agents: braconid, eulophid, mymarid, scelionid, chalcid, pteromalid and trichogrammatid wasps, ants, lady beetles, staphylinid beetles, gryllid, green meadow grasshopper, and mirid, phorid and platystomatid flies, bethylid, braconid, elasmid, eulophid, eurytomid and ichneumonid wasps, carabid and lady bird beetles, chloropid fly, gerrid and pentatomid bugs, ants, and mites,  earwigs, bird, asilid fly, vespid wasp, dragonflies, damselflies, and spiders
+Bacteria and fungi also infect the larvae: mermithid nematode, chalcid, elasmid and eulophid
+Apply nitrogen fertilizer in split following the recommended rate and time of application."
+                android:textColor="#070707"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="45dp"
+        android:layout_height="50dp"
+        android:background="@drawable/menu"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.977"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/rocknroll_one"
+        android:text="PestGon"
+        android:textColor="#0A5516"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.551"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="95dp"
+        android:layout_height="90dp"
+        android:background="@drawable/pestgon1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+
+    <TextView
+        android:id="@+id/textview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cantata_one"
+        android:text="Scan"
+        android:textColor="#FA879187"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.173"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <TextView
+        android:id="@+id/textview7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cantata_one"
+        android:text="Pest"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cantata_one"
+        android:text="Home"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23" />
+
+    <ImageButton
+        android:id="@+id/home2"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:background="@drawable/baseline_home_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.797"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185" />
+
+    <ImageButton
+        android:id="@+id/camera2"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:background="@drawable/baseline_photo_camera1_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/capture"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:background="@drawable/baseline_camera_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+
+    <ImageButton
+        android:id="@+id/pest2"
+        android:layout_width="36dp"
+        android:layout_height="34dp"
+        android:background="@drawable/baseline_pest_control_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
